@@ -2,7 +2,7 @@ import bannerBg from "../../assets/banner.jpg";
 
 const Home = () => {
   const bannerStyle = {
-    backgroundImage: `url('${bannerBg}'),linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.10) 49.24%, rgba(0, 0, 0, 0.60) 100%)`,
+    backgroundImage: `url('${bannerBg}'),linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.30) 49.24%, rgba(0, 0, 0, 0.60) 100%)`,
     backgroundBlendMode: "overlay",
     backgroundSize: "cover",
     backgroundPosition: "center",
