@@ -5,8 +5,10 @@ import Footer from "../pages/Shared/Footer";
 const Root = () => {
     return (
         <div>
-            <Navbar/>
-            <Outlet />
+            <Navbar />
+            <div className="min-h-screen">
+            <Outlet/>
+            </div>
             <Footer/>
         </div>
     );

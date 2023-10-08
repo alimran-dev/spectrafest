@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
       }`}
     >
       <img src={logo} alt="" className="w-56" />
-      <div className="flex items-center gap-4 font-medium text-white">
+      <div className={`flex items-center gap-4 font-medium ${pathname == '/' ?"text-white":"text-[#1C172A]"}`}>
         <NavLink
           to={"/"}
           className={({ isActive }) =>
@@ -20,7 +20,23 @@ const Navbar = () => {
           Home
         </NavLink>
         <NavLink
-          to={"/"}
+          to={"/gallery"}
+          className={({ isActive }) =>
+            isActive ? "text-[#47F0F2] border-b-2 border-[#47F0F2]" : ""
+          }
+        >
+          Gallery
+        </NavLink>
+        <NavLink
+          to={"/reservation"}
+          className={({ isActive }) =>
+            isActive ? "text-[#47F0F2] border-b-2 border-[#47F0F2]" : ""
+          }
+        >
+          Reservation
+        </NavLink>
+        <NavLink
+          to={"/about"}
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
           }
@@ -28,12 +44,12 @@ const Navbar = () => {
           About
         </NavLink>
         <div className="space-x-5">
-          <button className="bg-[#47F0F2] text-[#1C172A] py-1.5 px-4 text-lg font-semibold rounded-md">
+          <Link to={'/login'} className="bg-[#47F0F2] text-[#1C172A] py-1.5 px-4 text-lg font-semibold rounded-md inline-block">
             Login
-          </button>
-          <button className="bg-[#47F0F2] text-[#1C172A] py-1.5 px-4 text-lg font-semibold rounded-md">
+          </Link>
+          <Link to={'/register'} className="bg-[#47F0F2] text-[#1C172A] py-1.5 px-4 text-lg font-semibold rounded-md inline-block">
             Register
-          </button>
+          </Link>
         </div>
       </div>
     </div>

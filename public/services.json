@@ -1,44 +1,51 @@
 [
     {
-        "id": 1,
-        "name": "Concerts and Music Festivals",
-        "image": "https://i.ibb.co/m0FzzpG/concert.jpg",
-        "price": 530,
-        "description": "Experience the magic of live music at our concerts and music festivals. Get ready for unforgettable performances by your favorite artists."
+      "id": 1,
+      "name": "Concerts and Music Festivals",
+      "image": "https://i.ibb.co/m0FzzpG/concert.jpg",
+      "price": 530,
+      "description": "Experience the magic of live music at our concerts and music festivals. Get ready for unforgettable performances by your favorite artists.",
+      "long_description": "Immerse yourself in the world of music with our Concerts and Music Festivals. Join us for an unforgettable experience where you can witness the magic of live performances by some of the world's most renowned artists. Our events are a celebration of music in all its forms, from rock legends belting out anthems to pop sensations captivating the audience with their energy. Whether you're a classical connoisseur or an indie enthusiast, our diverse lineup has something for everyone.\n\nThe stage is set, the lights are on, and the crowd is buzzing with excitement. You'll find yourself surrounded by fellow music lovers, creating an electric atmosphere that enhances every note. Our events go beyond the music; they're about the shared moments, the camaraderie, and the emotional connections that only live music can provide. Be a part of this musical journey that will leave you with lasting memories and a deep appreciation for the power of live music.\n\nTicket prices for our Concerts and Music Festivals start at $530, ensuring that music lovers of all budgets can access these extraordinary experiences. Don't miss your chance to be a part of these unforgettable events and witness the magic of music come to life before your eyes."
     },
     {
-        "id": 2,
-        "name": "Theater and Performing Arts",
-        "image": "https://i.ibb.co/pxXN69Z/theater.jpg",
-        "price": 540,
-        "description": "Dive into the world of theater and performing arts. Enjoy captivating plays, musicals, and awe-inspiring performances."
+      "id": 2,
+      "name": "Theater and Performing Arts",
+      "image": "https://i.ibb.co/pxXN69Z/theater.jpg",
+      "price": 540,
+      "description": "Dive into the world of theater and performing arts. Enjoy captivating plays, musicals, and awe-inspiring performances.",
+      "long_description": "Experience the magic of storytelling with our Theater and Performing Arts events. Our productions transport you to different worlds, eras, and emotions, captivating your senses and imagination. We bring you a diverse range of performances, from classic Shakespearean dramas to contemporary musicals that explore complex human stories.\n\nOur talented cast and crew work tirelessly to bring these stories to life with exceptional artistry and dedication. Every detail, from the set design to the costumes, is meticulously crafted to create a world that draws you in completely. Whether you're a theater aficionado or a first-time attendee, our events promise an immersive and unforgettable journey through the world of the performing arts.\n\nTicket prices for our Theater and Performing Arts events start at $540, making these exceptional experiences accessible to a wide audience. Prepare to be spellbound by the dramatic narratives, powerful performances, and the emotional rollercoaster that awaits you in the world of theater."
     },
     {
-        "id": 3,
-        "name": "Film Screenings and Premieres",
-        "image": "https://i.ibb.co/0Y7W0Fc/film.jpg",
-        "price": 590,
-        "description": "Join us for exclusive film screenings and premieres. Be among the first to witness the latest cinematic masterpieces."
+      "id": 3,
+      "name": "Film Screenings and Premieres",
+      "image": "https://i.ibb.co/0Y7W0Fc/film.jpg",
+      "price": 590,
+      "description": "Join us for exclusive film screenings and premieres. Be among the first to witness the latest cinematic masterpieces.",
+      "long_description": "Step into the world of cinema with our Film Screenings and Premieres. Our events offer an exclusive peek at the latest cinematic masterpieces before they hit the big screen. We curate a diverse selection of films, ranging from heartwarming dramas to thrilling action-packed blockbusters. It's an opportunity to be among the first to witness the creative brilliance of filmmakers and experience the magic of storytelling on the silver screen.\n\nOur events go beyond the movie itself. You'll have the chance to engage with filmmakers and actors through insightful discussions, Q&A sessions, and meet-and-greets. It's a unique opportunity to gain deeper insights into the art of filmmaking and the stories behind the films.\n\nTicket prices for our Film Screenings and Premieres start at $590, ensuring that film enthusiasts can access these exclusive cinematic experiences. Join us for an evening of cinematic excellence, discovery, and the thrill of being at the forefront of cinematic storytelling."
     },
     {
-        "id": 4,
-        "name": "Comedy Shows",
-        "image": "https://i.ibb.co/j48nsd2/comedy.jpg",
-        "price": 860,
-        "description": "Laugh your heart out at our comedy shows. Get ready for a night of hilarious stand-up comedy and entertainment."
+      "id": 4,
+      "name": "Comedy Shows",
+      "image": "https://i.ibb.co/j48nsd2/comedy.jpg",
+      "price": 860,
+      "description": "Prepare to burst into laughter with our Comedy Shows. We curate a night filled with hilarious stand-up comedy and entertainment that will tickle your funny bone.",
+      "long_description": "Get ready to laugh your heart out at our Comedy Shows. We curate a night filled with hilarious stand-up comedy and entertainment that will tickle your funny bone and leave you in stitches. Our lineup of talented comedians brings you humor that ranges from witty observations about everyday life to sharp social commentary. No matter your sense of humor, there's something for everyone.\n\nLaughter is contagious, and our events are all about sharing this infectious joy with friends and family. Comedy lovers, get ready to have your spirits lifted and your cheeks hurting from smiling. Our comedians are masters of their craft, delivering jokes and stories that resonate with diverse audiences.\n\nTicket prices for our Comedy Shows start at $860, ensuring that everyone can access a night of unforgettable laughter and fun. Bring your loved ones, and prepare to have an evening filled with lighthearted humor and the joy of shared laughter."
     },
     {
-        "id": 5,
-        "name": "Sports Events",
-        "image": "https://i.ibb.co/F3g2g9f/sports.jpg",
-        "price": 740,
-        "description": "Experience the thrill of sports at our events. Cheer for your favorite teams and athletes in action-packed competitions."
+      "id": 5,
+      "name": "Sports Events",
+      "image": "https://i.ibb.co/F3g2g9f/sports.jpg",
+      "price": 740,
+      "description": "Experience the thrill of sports at our events. Cheer for your favorite teams and athletes in action-packed competitions.",
+      "long_description": "Feel the adrenaline rush at our Sports Events. Whether you're a die-hard sports fan or just looking for an exciting day out, our events have something for everyone. Our lineup includes thrilling competitions across a variety of sports, from the pulse-pounding excitement of football to the fast-paced action of basketball and the precision of tennis.\n\nThe atmosphere at our events is electric, with passionate fans cheering for their favorite teams and athletes. The energy is palpable, making every moment of the game an unforgettable experience. Whether you're celebrating a victory or commiserating a defeat, you'll be sharing the joy and excitement with fellow sports enthusiasts.\n\nTicket prices for our Sports Events start at $740, ensuring that sports fans of all backgrounds can access the thrill of live sporting competitions. Join us to create lasting memories of epic moments in sports history and be a part of the excitement that only live sports can offer."
     },
     {
-        "id": 6,
-        "name": "Fashion Events",
-        "image": "https://i.ibb.co/x6WGT7q/fashion.jpg",
-        "price": 890,
-        "description": "Step into the world of fashion at our events. Discover the latest trends, runway shows, and stylish exhibitions."
+      "id": 6,
+      "name": "Fashion Events",
+      "image": "https://i.ibb.co/x6WGT7q/fashion.jpg",
+      "price": 890,
+      "description": "Step into the world of fashion at our events. Discover the latest trends, runway shows, and stylish exhibitions.",
+      "long_description": "Dive deep into the world of fashion with our Fashion Events. These experiences are designed for fashion enthusiasts who want to discover the latest trends, witness stunning runway shows, and explore stylish exhibitions that showcase the creativity and innovation of the fashion industry.\n\nOur events celebrate diversity in style and design, ranging from haute couture that pushes the boundaries of fashion to the latest in streetwear trends. Whether you're a fashion industry insider or simply love expressing yourself through style, our events offer an opportunity to experience the fusion of art and fashion.\n\nTicket prices for our Fashion Events start at $890, providing access to a world where creativity knows no bounds. Step into the glamorous world of fashion, where every outfit tells a story and every runway show is a display of artistic expression. Join us to witness the transformative power of style and immerse yourself in the ever-evolving world of fashion."
     }
-]
+  ]
+  
