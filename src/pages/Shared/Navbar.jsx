@@ -37,8 +37,8 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           to={"/about"}
-          className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "active" : ""
+          className={({ isActive }) =>
+            isActive ? "text-[#47F0F2] border-b-2 border-[#47F0F2]" : ""
           }
         >
           About
