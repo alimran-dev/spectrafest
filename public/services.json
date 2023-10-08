@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Concerts and Music Festivals",
+        "image": "https://i.ibb.co/m0FzzpG/concert.jpg",
+        "price": 530,
+        "description": "Experience the magic of live music at our concerts and music festivals. Get ready for unforgettable performances by your favorite artists."
+    },
+    {
+        "id": 2,
+        "name": "Theater and Performing Arts",
+        "image": "https://i.ibb.co/pxXN69Z/theater.jpg",
+        "price": 540,
+        "description": "Dive into the world of theater and performing arts. Enjoy captivating plays, musicals, and awe-inspiring performances."
+    },
+    {
+        "id": 3,
+        "name": "Film Screenings and Premieres",
+        "image": "https://i.ibb.co/0Y7W0Fc/film.jpg",
+        "price": 590,
+        "description": "Join us for exclusive film screenings and premieres. Be among the first to witness the latest cinematic masterpieces."
+    },
+    {
+        "id": 4,
+        "name": "Comedy Shows",
+        "image": "https://i.ibb.co/j48nsd2/comedy.jpg",
+        "price": 860,
+        "description": "Laugh your heart out at our comedy shows. Get ready for a night of hilarious stand-up comedy and entertainment."
+    },
+    {
+        "id": 5,
+        "name": "Sports Events",
+        "image": "https://i.ibb.co/F3g2g9f/sports.jpg",
+        "price": 740,
+        "description": "Experience the thrill of sports at our events. Cheer for your favorite teams and athletes in action-packed competitions."
+    },
+    {
+        "id": 6,
+        "name": "Fashion Events",
+        "image": "https://i.ibb.co/x6WGT7q/fashion.jpg",
+        "price": 890,
+        "description": "Step into the world of fashion at our events. Discover the latest trends, runway shows, and stylish exhibitions."
+    }
+]
