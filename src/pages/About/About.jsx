@@ -54,7 +54,7 @@ const About = () => {
         <h2 className="w-fit text-transparent text-2xl font-bold bg-gradient-to-r from-[#EB3B2E] to-[#BE6524] bg-clip-text mb-1">
           Why Choose Us
         </h2>
-        <p className="font-medium">
+        <div className="font-medium">
           <p>
             <span className="font-bold">Experience:</span> With years of
             industry experience, we bring a wealth of knowledge and expertise to
@@ -80,7 +80,7 @@ const About = () => {
             of trusted vendors, artists, and partners to ensure that every
             aspect of your event is top-notch.
           </p>
-        </p>
+        </div>
       </div>
       <div>
         <h2 className="w-fit text-transparent text-2xl font-bold bg-gradient-to-r from-[#EB3B2E] to-[#BE6524] bg-clip-text mb-1">
