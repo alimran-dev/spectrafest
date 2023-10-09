@@ -1,15 +1,15 @@
 import Banner from "./Banner";
 import Partners from "./Partners";
 import Services from "./Services";
-
+import Upcoming from "./Upcoming";
 
 const Home = () => {
-  
   return (
     <div>
-          <Banner />
-          <Services />
-          <Partners/>
+      <Banner />
+      <Upcoming />
+      <Services />
+      <Partners />
     </div>
   );
 };
