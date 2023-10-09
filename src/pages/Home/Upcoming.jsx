@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import useDateCountdown from "../../hooks/useDateCountdown";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Upcoming = () => {
   const [event, SetEvent] = useState();
@@ -9,6 +11,7 @@ const Upcoming = () => {
     fetch("upcoming.json")
       .then((res) => res.json())
       .then((data) => SetEvent(data));
+      AOS.init();
   }, []);
   return (
     <div className="px-20 pt-16">
@@ -16,7 +19,7 @@ const Upcoming = () => {
         Discover Our Next Spectacular Event...
       </h1>
       <div className="grid md:grid-cols-2 gap-7">
-        <div className="space-y-5">
+        <div data-aos="fade-right" className="space-y-5">
           <h1 className="text-4xl font-bold text-[#1C172A] mt-7">{title}</h1>
           <p className="text-2xl font-medium">
             <span className="text-3xl font-bold">Location: </span>
