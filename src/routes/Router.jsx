@@ -8,6 +8,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Gallery from "../pages/Gallery/Gallery";
 import Reservation from "../pages/Reservation/Reservation";
 import About from "../pages/About/About";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -23,16 +24,28 @@ const router = createBrowserRouter([
       {
         path: "/details/:id",
         loader: () => fetch("/services.json"),
-        element: <ServiceDetails />,
+        element: (
+          <PrivateRoute>
+            <ServiceDetails />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/gallery",
         loader: () => fetch("/gallery.json"),
-        element: <Gallery />,
+        element: (
+          <PrivateRoute>
+            <Gallery />
+          </PrivateRoute>
+        ),
       },
       {
         path: "reservation",
-        element: <Reservation />,
+        element: (
+          <PrivateRoute>
+            <Reservation />
+          </PrivateRoute>
+        ),
       },
       {
         path: "/about",
