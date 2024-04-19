@@ -11,8 +11,8 @@ const Banner = () => {
       };
     return (
         <div style={bannerStyle} className="h-screen px-16 py-20">
-        <div data-aos="fade-right" className="w-1/2 h-full space-y-5 flex flex-col justify-center">
-          <h1 className="text-5xl font-bold text-white">
+        <div data-aos="fade-right" className="md:w-1/2 h-full space-y-5 flex flex-col justify-center">
+          <h1 className="text-2xl md:text-5xl font-bold text-white">
             Turning Dreams into Spectacular Realities
           </h1>
           <p className="text-white font-semibold">
